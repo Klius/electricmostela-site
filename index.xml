@@ -20,7 +20,7 @@
 					<name>Johto/Kanto Interactive Map</name>
 					<link>Content/Javascript/PokemonMap/pokemonmapinteractive.html</link>
 					<comentari>
-						Mapa interactiu de Johto/Kanto amb informaciÃ³ sobre les ciutats, utilitzant javascript map_area i CSS
+						Mapa interactiu de Johto/Kanto amb informació sobre les ciutats, utilitzant javascript map_area i CSS
 					</comentari>
 				</exercise>
 			</exercises>

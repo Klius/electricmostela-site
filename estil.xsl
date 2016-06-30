@@ -6,7 +6,7 @@
 			<title>Electric Mostela</title>
                         <meta name="viewport" content="width=device-width, initial-scale=1" />
 			<link rel="shortcut icon" href="/favicon.gif" type="image/gif" />
-			<link rel="stylesheet" href="styletto.css" type="text/css"/>
+			<link rel="stylesheet" href="css/styletto.css" type="text/css"/>
 		</head>
 		<body bgcolor="#FFFF66">
 			<xsl:for-each select="grade">
@@ -23,7 +23,7 @@
     							</xsl:attribute>
    								<xsl:value-of select="name"/>
 							</xsl:element>
-							<strong> --> </strong><xsl:value-of select="comentari"/>
+							<strong> --> </strong><span><xsl:value-of select="comentari"/></span>
 						</li>
 					</xsl:for-each>
 					</ol>

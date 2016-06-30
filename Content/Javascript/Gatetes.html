@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="general.css" />
+	</head>
+	<body onkeypress="Gatetes()" onload="AddTouchEvents()" ontouchstart="Gatetes()" style="height:900px">
+
+		<h1>Presiona Teclas, o la Pantalla</h1>
+
+		<script>
+			function AddTouchEvents(){
+				console.log("Added touchstart");
+				document.body.addEventListener('ontouchstart',Gatetes,false);	
+			}
+			function Gatetes()
+			{
+				var img = document.createElement("img");
+				img.src = "http://images4.fanpop.com/image/photos/22000000/Kitties-lexa-22092046-500-374.jpg";
+				console.log(img.src);
+				document.body.appendChild(img);
+			}
+		</script>
+
+	</body>
+</html>

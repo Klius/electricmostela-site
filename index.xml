@@ -8,17 +8,17 @@
 			<exercises>
 				<exercise>
 					<name>Gatetes</name>
-					<link>Javascript/Gatetes.html</link>
+					<link>Content/Javascript/Gatetes.html</link>
 					<comentari>Generador de Gatetes con el Teclado/PantallaTactil</comentari>
 				</exercise>
 				<exercise>
 					<name>Pokedex</name>
-					<link>Javascript/Pokemon/pokemon.html</link>
+					<link>Content/Javascript/Pokemon/pokemon.html</link>
 					<comentari>Exemple de Pokedex, fet amb JSON i Javascript</comentari>
 				</exercise>
 				<exercise>
 					<name>Johto/Kanto Interactive Map</name>
-					<link>Javascript/PokemonMap/pokemonmapinteractive.html</link>
+					<link>Content/Javascript/PokemonMap/pokemonmapinteractive.html</link>
 					<comentari>
 						Mapa interactiu de Johto/Kanto amb informaciÃ³ sobre les ciutats, utilitzant javascript map_area i CSS
 					</comentari>
@@ -30,23 +30,13 @@
 			<exercises>
 				<exercise>
 					<name>Psicodelia</name>
-					<link>Javascript/Canvas/psicodelia/index.html</link>
+					<link>Content/Javascript/Canvas/psicodelia/index.html</link>
 					<comentari>Prova inicial amb canvas, on el metode d'esborrar deixa un rastre de colors</comentari>
 				</exercise>
 				<exercise>
 					<name>Colisions</name>
-					<link>Javascript/Canvas/bouncingballs/base.html</link>
+					<link>Content/Javascript/Canvas/bouncingballs/base.html</link>
 					<comentari>Test de colisions entre múltiples boles. Clica al canvas per afegir més boles</comentari>
-				</exercise>
-			</exercises>
-		</course>
-		<course>
-			<name>M9-Disseny d'interficies web</name>
-			<exercises>
-				<exercise>
-					<name>Ejercicio01</name>
-					<link>M9/Ex01.html</link>
-					<comentari>Primer exercici amb HTML</comentari>
 				</exercise>
 			</exercises>
 		</course>

@@ -1,0 +1,12 @@
+body{
+	background-color: rgb(56, 56, 56);
+	color: #DDD;
+	height:30%;
+	font-color:#000;
+}
+
+canvas{
+	border: 1px solid #C3C3C3;
+	background-color: black;
+}
+

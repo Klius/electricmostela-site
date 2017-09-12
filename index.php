@@ -16,7 +16,9 @@
 						<p>
 							Smoked Sardines es un joc competitiu per dos persones.
 							Com a sardina has d'evitar que el chef espacial et fregeixi amb la terrible FLAMEJATOR-300.
-							</br>Esta fet amb javascript+canvas i ho pots jugar a la seva web!
+							</br>
+							</br>
+							Esta fet amb javascript+canvas i ho pots jugar a la seva web!
 							</br>
 							</br>
 							<a href="https://klius.github.io/Smoked-Sardines">

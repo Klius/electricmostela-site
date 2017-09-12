@@ -21,6 +21,32 @@ a {
 span {
 	font-style:italic;
 }
+.content{
+	max-width:960px;
+}
+.center{
+	width: 960px;
+	margin: 0 auto;
+	display:flex;
+	align-items:flex-end;
+}
+
+.picture img{
+	padding: 5px;
+	border: 3px solid green;
+}
+.picture{
+	width:45%;
+}
+.info{
+	width: 45%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.block{
+	display: flex;
+	margin-top: 17px;
+}
 /****************************************
 ***  HEADER
 *****************************************/

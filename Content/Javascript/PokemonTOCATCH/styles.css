@@ -1,0 +1,24 @@
+.pokemon-button{
+	width:100px;
+	text-align:center;
+	color:#FFF;
+	border:solid 1px;
+	border-color:#A3A3A3;
+	-webkit-transition: background 0.5s; /* Safari */
+    transition: background 0.5s;
+	display:inline-block;
+}
+.pokemon-button img{
+	width:100px;
+}
+.pokemon-button:hover{
+	background-color:#939393;
+}
+#pokemons{
+	max-width: 960px;
+	margin: auto;
+	margin-bottom:50px;
+}
+body{
+	background-color:#121212;
+}

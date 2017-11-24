@@ -32,11 +32,11 @@ function showPokemons(pokemons){
 		input.id=poke["index"];
 		input.name=poke["index"];
 		//append
-		label.appendChild(img);
-		label.appendChild(p);
-		label.appendChild(input);
-		div.appendChild(label);
-		document.getElementById("pokemons").appendChild(div);
+		div.appendChild(img);
+		div.appendChild(p);
+		div.appendChild(input);
+		label.appendChild(div);
+		document.getElementById("pokemons").appendChild(label);
 	}
 }
 /*

@@ -15,7 +15,6 @@
 	background-color:#939393;
 }
 .header{
-	margin-top:60px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -27,6 +26,7 @@
 	margin: auto;
 }
 #pokemons{
+	margin-top:60px;
 	max-width: 960px;
 	margin: auto;
 	margin-bottom:50px;

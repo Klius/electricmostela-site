@@ -14,6 +14,29 @@
 .pokemon-button:hover{
 	background-color:#939393;
 }
+.pokemon-button input{
+	-ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari */
+    transform: scale(1.5);
+	margin-bottom:10px;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: block;
+	color:#FFF;
+	background-color:rgba(0,0,0,0.9);
+	z-index:1;
+}
+.wrapper{
+	margin-top:60px;
+}
+.menu{
+	max-width: 960px;
+	margin: auto;
+}
 #pokemons{
 	max-width: 960px;
 	margin: auto;

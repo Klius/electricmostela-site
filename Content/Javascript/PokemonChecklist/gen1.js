@@ -410,7 +410,7 @@
     },
     {
         "index": "083",
-        "name": "Magneton",
+        "name": "Farfetch'd",
         "image_url": "http://serebii.net/Pkmn_Red/083.gif"
     },
     {

@@ -31,13 +31,24 @@ function showPokemons(pokemons){
 		input.type="checkbox";
 		input.id=poke["index"];
 		input.name=poke["index"];
+		input.onchange = function(){countPokemons()};
 		//append
-		label.appendChild(img);
-		label.appendChild(p);
-		label.appendChild(input);
-		div.appendChild(label);
-		document.getElementById("pokemons").appendChild(div);
+		div.appendChild(img);
+		div.appendChild(p);
+		div.appendChild(input);
+		label.appendChild(div);
+		document.getElementById("pokemons").appendChild(label);
 	}
+}
+function countPokemons(){
+	var inputs =  document.getElementsByTagName("INPUT");
+	var pkmnCount = 0;
+	for(i=0;i<inputs.length;i++){
+		if (inputs[i].checked){
+			pkmnCount += 1;
+		}
+	}
+	document.getElementById("pkmnOwned").innerHTML = pkmnCount;
 }
 /*
 			<div class="pokemon-button">

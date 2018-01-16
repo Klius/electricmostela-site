@@ -8,8 +8,8 @@
 			<ul>
 				<li><a href="#">About</a></li>
 				<li><a href="index.php">Games</a></li>
+				<li><a href="apps.php">Apps</a></li>
 				<li><a href="#">Music</a></li>
-				<li><a href="#">Coding</a></li>
 			</ul>
 		</div>
 	</div>

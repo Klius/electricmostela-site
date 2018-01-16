@@ -28,7 +28,7 @@
 						</p>
 					</div>
 					<div class="picture">
-						<img src="img/smokedsardines.png"/>
+						<img src="img/pokemoncheck.png"/>
 					</div>
 				</div>
 			</div>

@@ -1,4 +1,4 @@
-
+var pkmns;
 function load_pokemons(gen,savedURL){
 	var xmlhttp = new XMLHttpRequest();
 	if (savedURL == null){
@@ -15,6 +15,7 @@ function load_pokemons(gen,savedURL){
 }
 
 function showPokemons(pokemons){
+	pkmns = pokemons;
 	imgURL="https://www.serebii.net/pokearth/sprites/rb/";
 	for (i=0;i<pokemons.length;i++)
 	{
@@ -31,7 +32,10 @@ function showPokemons(pokemons){
 		input.type="checkbox";
 		input.id=poke["index"];
 		input.name=poke["index"];
-		input.onchange = function(){countPokemons()};
+		if (poke["gotcha"]!=null){
+			input.checked = poke["gotcha"];
+		}
+		input.onchange = function(){countPokemons();updateMonList(this.id,this.checked)};
 		//append
 		div.appendChild(img);
 		div.appendChild(p);
@@ -49,6 +53,14 @@ function countPokemons(){
 		}
 	}
 	document.getElementById("pkmnOwned").innerHTML = pkmnCount;
+}
+function saveList() {
+	
+}
+//updates json list so we can save it later
+function updateMonList(pkmnid,checked){
+	pkmns[parseInt(pkmnid)-1].gotcha = checked
+ 	//alert(pkmns[parseInt(pkmnid)-1].name);
 }
 /*
 			<div class="pokemon-button">

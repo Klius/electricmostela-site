@@ -27,7 +27,7 @@
 	width: 100%;
 	display: block;
 	color:#FFF;
-	background-color:rgba(0,0,0,0.9);
+	background-color:rgba(0,0,0,0.5);
 	z-index:1;
 }
 .wrapper{
@@ -44,4 +44,12 @@
 }
 body{
 	background-color:#121212;
+}
+.menu-item{
+	float:left;
+	margin-right:1%;
+}
+.menu-item button{
+	background-color:white;
+	border-radius: 5px;
 }

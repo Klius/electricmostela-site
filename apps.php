@@ -25,7 +25,6 @@
 							<a href="Content/Javascript/PokemonChecklist/" target="_blank">
 								Go to App -> 
 							</a>
-							<a href="https://github.com/klius/Elefantes">Codi<img src="img/logos/GitHub-Mark-64px.png"/></a>
 						</p>
 					</div>
 					<div class="picture">
@@ -44,6 +43,8 @@
 						<a href="Content/Javascript/Elefantes/" target="_blank">
 							Go to App ->
 						</a>
+						<a href="https://github.com/klius/Elefantes">Codi<img src="img/logos/GitHub-Mark-64px.png"/></a>
+						</p>
 					</div>
 					<div class="picture">
 						<img src="img/elephants.png"/>

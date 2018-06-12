@@ -22,13 +22,31 @@
 							Esta fet amb javascript+mongoDB.
 							</br>
 							</br>
-							<a href="Content/Javascript/PokemonChecklist/">
+							<a href="Content/Javascript/PokemonChecklist/" target="_blank">
 								Go to App -> 
 							</a>
+							<a href="https://github.com/klius/Elefantes">Codi<img src="img/logos/GitHub-Mark-64px.png"/></a>
 						</p>
 					</div>
 					<div class="picture">
 						<img src="img/pokemoncheck.png"/>
+					</div>
+				</div>
+				<div class="block">
+					<div class="info">
+						<h3>Un Elefante se balanceaba</h3>
+						<p>
+							Aplicació de veu que canta la cancó de bressol dels elefants infinitament.
+							</br>
+							</br>
+							Fet amb javascript.
+						</p>
+						<a href="Content/Javascript/Elefantes/" target="_blank">
+							Go to App ->
+						</a>
+					</div>
+					<div class="picture">
+						<img src="img/elephants.png"/>
 					</div>
 				</div>
 			</div>
